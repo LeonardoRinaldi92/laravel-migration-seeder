@@ -14,7 +14,7 @@ class TrainController extends Controller
      */
     public function index()
     {
-        return view('welcome', ['trains' => Train::all()]);
+        return view('pages.home', ['trains' => Train::all()]);
     }
 
     /**
